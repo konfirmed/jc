@@ -63,7 +63,8 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-};```
+};
+```
 
 And in your globals.css:
 
