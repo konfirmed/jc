@@ -46,15 +46,13 @@ cd job-scraper
 
 2. Install dependencies
 
-Example
 ```
 npm install
 ``` 
 3. Setup Tailwind CSS
 Tailwind CSS is already configured in the project. Ensure you have the following in your tailwind.config.js:
 
-javascript
-
+```
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -65,11 +63,11 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-};
+};```
+
 And in your globals.css:
 
-css
-
+```
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -77,14 +75,15 @@ css
 body {
   @apply bg-gray-50 text-gray-900;
 }
-Run the development server
-
-sh
-
+```
+## Run the development server
+```
 npm run dev
+```
+
 Open http://localhost:3000 with your browser to see the result.
 
-API Routes
+## API Routes
 /api/jobbank
 Fetches job listings from JobBank based on the given title and location.
 
