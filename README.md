@@ -85,7 +85,7 @@ npm run dev
 Open http://localhost:3000 with your browser to see the result.
 
 ## API Routes
-/api/jobbank
+### `/api/jobbank`
 Fetches job listings from JobBank based on the given title and location.
 
 Example
